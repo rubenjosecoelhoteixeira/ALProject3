@@ -1,4 +1,4 @@
-codeunit 50101 "LAB CRS Company Enrichment"
+codeunit 50101 "ARQLAB CRS Company Enrichment"
 {
     procedure EnrichCompanyData(var Cust: Record Customer)
     var
@@ -137,5 +137,23 @@ codeunit 50101 "LAB CRS Company Enrichment"
     [IntegrationEvent(false, false)]
     local procedure OnAfterEnrichCompanyData(var Cust: Record Customer)
     begin
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::Customer, 'OnAfterInsertEvent', '', false, false)]
+    local procedure SendNotificationIfPhoneNoIsEmpty(var Rec: Record Customer; RunTrigger: Boolean)
+    var
+        TheNotification: Notification;
+        FillPhoneNoLbl: Label 'You have to fill the phone no. field.';
+    begin
+        if not RunTrigger then
+            exit;
+
+        if rec."Phone No." = '' then begin
+            TheNotification.Id := CreateGuid();
+            TheNotification.Scope := NotificationScope::LocalScope;
+            TheNotification.Message := FillPhoneNoLbl;
+            //TheNotification.AddAction();
+            TheNotification.Send();
+        end;
     end;
 }

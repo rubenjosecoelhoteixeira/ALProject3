@@ -1,4 +1,4 @@
-pageextension 50100 "Customer Card Ext" extends "Customer Card"
+pageextension 50100 "ARQCustomer Card Ext" extends "Customer Card"
 {
     layout
     {
@@ -6,7 +6,7 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
         {
             trigger OnAfterValidate()
             var
-                CompanyEnrichment: Codeunit "LAB CRS Company Enrichment";
+                CompanyEnrichment: Codeunit "ARQLAB CRS Company Enrichment";
             begin
                 CompanyEnrichment.EnrichCompanyData(Rec);
             end;
@@ -33,7 +33,7 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
         // in the Navigation group.
         addfirst(Navigation)
         {
-            action("Rewards")
+            action("ARQRewards")
             {
                 ApplicationArea = All;
 
