@@ -49,6 +49,7 @@ codeunit 50101 "ARQLAB CRS Company Enrichment"
             Add('.no');
             Add('.pl');
             Add('.se');
+            Add('.pt');
         end;
     end;
 

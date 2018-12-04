@@ -28,30 +28,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Last Modified Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2195797781 - Method 1183512432 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 78509339 - Method 1183512432 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to collect information about the company associated with %1?</source>
           <note from="Developer" annotates="general" priority="2">%1=Domain name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LAB CRS Company Enrichment - Method ConfirmCompanyEnrichment - NamedType ConfirmQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method ConfirmCompanyEnrichment - NamedType ConfirmQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2195797781 - Method 1860758385 - NamedType 927327867" size-unit="char" translate="no" xml:space="preserve">
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 927327867" size-unit="char" translate="no" xml:space="preserve">
           <source>https://api.fullcontact.com/v3/company.enrich</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType UrlLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType UrlLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2195797781 - Method 1860758385 - NamedType 1425245607" size-unit="char" translate="no" xml:space="preserve">
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 1425245607" size-unit="char" translate="no" xml:space="preserve">
           <source>09jK4s8pl2lJrpnbluWsiM3PZXeDNd0f</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ApiKeyLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ApiKeyLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2195797781 - Method 1860758385 - NamedType 128301118" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 128301118" size-unit="char" translate="yes" xml:space="preserve">
           <source>Internet connection failure</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType NoConnectionErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType NoConnectionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2195797781 - Method 1860758385 - NamedType 2717262602" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 2717262602" size-unit="char" translate="yes" xml:space="preserve">
           <source>An error occurred\Status code: %1\Reason: %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ResponseErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 298810768 - NamedType 4243516636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to fill the phone no. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method SendNotificationIfPhoneNoIsEmpty - NamedType FillPhoneNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 1975562929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reward List</source>
