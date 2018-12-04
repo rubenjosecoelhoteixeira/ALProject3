@@ -19,5 +19,11 @@ tableextension 50100 "Customer Ext" extends Customer
                     Error('Cannot update the rewards status of a blocked customer.')
             end;
         }
+        field(50101; RewardPoints; Integer)
+        {
+            Caption = 'Reward Points';
+            MinValue = 0;
+        }
+
     }
 }

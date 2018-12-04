@@ -16,6 +16,17 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
                 Lookup = true;
             }
         }
+
+        addafter(Name)
+        {
+            field(RewardPoints; RewardPoints)
+            {
+                ApplicationArea = All;
+                Caption = 'Reward Points';
+                Description = 'Reward points accrued by customer';
+                Editable = false;
+            }
+        }
     }
 
     actions
@@ -34,4 +45,15 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
             }
         }
     }
+
+    trigger OnAfterGetRecord();
+    var
+        CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt.";
+    begin
+        // Get the reward level associated with reward points 
+        RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(RewardPoints);
+    end;
+
+    var
+        RewardLevel: Text;
 }
