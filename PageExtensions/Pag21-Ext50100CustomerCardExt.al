@@ -2,6 +2,15 @@ pageextension 50100 "Customer Card Ext" extends "Customer Card"
 {
     layout
     {
+        modify(Name)
+        {
+            trigger OnAfterValidate()
+            var
+                CompanyEnrichment: Codeunit "LAB CRS Company Enrichment";
+            begin
+                CompanyEnrichment.EnrichCompanyData(Rec);
+            end;
+        }
         // The "addlast" construct adds the field control as the last control in the General 
         // group.
         addlast(General)
