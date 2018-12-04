@@ -32,4 +32,5 @@ codeunit 50100 RewardsInstallCode
         Reward."Discount Percentage" := Discount;
         Reward.Insert();
     end;
+
 }
