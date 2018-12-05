@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pt-PT" original="Rewards" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1900.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="body" datatype="resx">
+        <trans-unit id="Table 4201775713 - Field 1157966702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward ID</source>
+          <target state="translated">ID Prémio</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Reward ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Descrição</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 4075675287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Percentage</source>
+          <target state="translated">% Desconto</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Discount Percentage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 2939944031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Purchase</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Minimum Purchase - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4201775713 - Field 2626717425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified Date</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Reward - Field Last Modified Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 1183512432 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to collect information about the company associated with %1?</source>
+          <target state="new"></target>
+          <note from="Developer" annotates="general" priority="2">%1=Domain name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method ConfirmCompanyEnrichment - NamedType ConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 927327867" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://api.fullcontact.com/v3/company.enrich</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType UrlLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 1425245607" size-unit="char" translate="no" xml:space="preserve">
+          <source>09jK4s8pl2lJrpnbluWsiM3PZXeDNd0f</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ApiKeyLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 128301118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internet connection failure</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType NoConnectionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 1860758385 - NamedType 2717262602" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred\Status code: %1\Reason: %2</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method FetchDataFromWebservice - NamedType ResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 78509339 - Method 298810768 - NamedType 4243516636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have to fill the phone no. field.</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ARQLAB CRS Company Enrichment - Method SendNotificationIfPhoneNoIsEmpty - NamedType FillPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1975562929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward List</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">Report ARQReward List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2204447775 - Field 1157966702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reward ID</source>
+          <target state="new"></target>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Ext - Field Reward ID - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
